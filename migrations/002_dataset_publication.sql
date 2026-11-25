@@ -1,0 +1,2 @@
+ALTER TABLE datasets ADD COLUMN status text NOT NULL DEFAULT 'READY'
+    CHECK (status IN ('PENDING', 'READY', 'SOURCE_EXPIRED'));

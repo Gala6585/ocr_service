@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Удостоверения",
+      "Group": "OCR",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "ocr",
+      "Username": "ocr_readonly",
+      "SSLMode": "prefer"
+    }
+  }
+}

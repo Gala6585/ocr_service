@@ -1,0 +1,12 @@
+**
+!Dockerfile
+!requirements/
+!requirements/*.txt
+!service/
+!service/*.py
+!migrations/
+!migrations/*.sql
+!ui/
+!ui/*.py
+!ui/.streamlit/
+!ui/.streamlit/config.toml
